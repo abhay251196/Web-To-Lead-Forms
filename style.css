@@ -11,6 +11,7 @@ h1{
 h1:hover{
     color: gold;
     background-color: black;
+    text-align: center;
 }
 label{
     display: block;
