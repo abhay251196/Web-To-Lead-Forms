@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 h1{
+    display: inline-block;
     text-align: center;
     margin: 15px;
     color: rgb(95, 41, 2);
