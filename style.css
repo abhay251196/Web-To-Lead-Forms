@@ -9,9 +9,8 @@ h1{
     color: rgb(95, 41, 2);
 }
 h1:hover{
-    color: gold;
-    background-color: black;
-    text-align: center;
+    color: rgb(243, 164, 61);
+    display:inherit;
 }
 label{
     display: block;
