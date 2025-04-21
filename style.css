@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+    color: rgb(95, 41, 2);
+}
+h1:hover{
+    color: gold;
+    background-color: black;
+}
+label{
+    display: block;
+    color: greenyellow;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.division input{
+    position: relative;
+}
+input{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid brown;
+    padding:3px;
+    margin: 2px;
+}
+.submit{
+    margin: 0 auto 0 auto;
+    width: 45%;
+    background-color: violet;
+    border-radius: 18px;
+    font-size: 25px;
+    color: black;
+
+}
+form{
+    margin: auto;
+    min-width: 300px;
+    max-width: 500px;
+    border: 2px solid black;
+    padding:20px;
+    background-color: gray;
+    border-radius: 20px;
+}
+#dates{
+    color: black;
+    text-align: center;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+}
+.g-recaptcha{
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}

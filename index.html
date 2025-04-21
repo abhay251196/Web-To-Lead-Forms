@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebToLeadForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create Lead</h1>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5j00000D9I3G" method="POST" onsubmit="beforeSubmit(event)">
+    
+    <input type=hidden name="oid" value="00D5j00000D9I3G">
+    <input type=hidden name="retURL" value="https://abhay251196.github.io/Web-To-Lead-Form/thanks.html" />
+    <input type=hidden name="LeadDate__c" class="outputdate">
+    <input type=hidden name='captcha_settings' value='{"keyname":"WebToLead","fallback":"true","orgId":"00D5j00000D9I3G","ts":""}'>
+    <div class="division">
+        <div>
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true" /><br>
+
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true" /><br>
+
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" required="true" /><br>
+
+    <label for="title">Title</label><input  id="title" maxlength="40" name="title" size="20" type="text" /><br>
+
+    <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" required="true" /><br>
+
+    <label for="Lead Date">Lead Date</label>
+    <input type="date" id="dates" class="inputdate" required="true">
+    <!-- Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NJ4000004dxsO" name="00NJ4000004dxsO" size="12" type="text" /></span><br> -->
+
+    <div class="g-recaptcha" data-sitekey="6LeTnx8rAAAAAAluibgRBG73HRNd5hMOBzfCvnux"
+    data-callback="isCaptchaCheck()"></div><br>
+ 
+    <input type="submit" name="submit" class="submit">
+
+    </div>
+    </form>
+    <script src="script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</body>
+</html>
