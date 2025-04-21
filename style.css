@@ -10,7 +10,7 @@ h1{
 }
 h1:hover{
     color: gold;
-    display: block;
+    display:inline-block;
     background-color: black;
 }
 label{

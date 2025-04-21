@@ -11,7 +11,7 @@ function beforeSubmit(event) {
     }
     else{
         alert("Please confirm you are not a robot and check the reCaptcha box!");
-        event.preventdefault();
+        event.preventDefault();
     }
 }
 
